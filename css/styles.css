@@ -227,6 +227,10 @@ img {
     gap: 30px
 }
 
+.benefits > .item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
 .benefits-title {
     font-size: 14px;
     line-height: 1.14;
@@ -252,7 +256,7 @@ img {
 }
 
 .offer-list > .item {
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 /* Team */
